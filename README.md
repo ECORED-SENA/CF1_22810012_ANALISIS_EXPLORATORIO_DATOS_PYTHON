@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Análisis de datos: el futuro de las organizaciones**
 
 ## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_22810012_ANALISIS_EXPLORATORIO_DATOS_PYTHON/](https://ecored-sena.github.io/CF1_22810012_ANALISIS_EXPLORATORIO_DATOS_PYTHON/)
 
 #
 

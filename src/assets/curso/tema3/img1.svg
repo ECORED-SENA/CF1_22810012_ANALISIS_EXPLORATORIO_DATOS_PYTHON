@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.882" height="66.241" viewBox="0 0 29.882 66.241">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dc296b"/>
+      <stop offset="1" stop-color="#ff6df9"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_173817" data-name="Grupo 173817" transform="translate(-648.505 -485.5)">
+    <g id="Grupo_171327" data-name="Grupo 171327" transform="translate(648.505 485.5)">
+      <g id="Grupo_152551" data-name="Grupo 152551" transform="translate(0 96.088) rotate(-90)">
+        <rect id="Rectángulo_45220" data-name="Rectángulo 45220" width="43.969" height="20.664" transform="translate(96.088 20.664) rotate(180)" fill="#e8e8e8"/>
+        <g id="Grupo_152556" data-name="Grupo 152556" transform="translate(0 11.447)">
+          <rect id="Rectángulo_45221" data-name="Rectángulo 45221" width="3.511" height="3.511" transform="translate(74.618 14.924)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45222" data-name="Rectángulo 45222" width="3.511" height="3.511" transform="translate(67.156 14.924)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45223" data-name="Rectángulo 45223" width="3.511" height="3.511" transform="translate(59.694 14.924)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45224" data-name="Rectángulo 45224" width="3.511" height="3.511" transform="translate(52.232 14.924)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45225" data-name="Rectángulo 45225" width="3.511" height="3.511" transform="translate(44.771 14.924)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45226" data-name="Rectángulo 45226" width="3.511" height="3.511" transform="translate(37.309 14.924)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45227" data-name="Rectángulo 45227" width="3.511" height="3.511" transform="translate(29.847 14.924)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45232" data-name="Rectángulo 45232" width="3.511" height="3.512" transform="translate(74.618 7.462)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45233" data-name="Rectángulo 45233" width="3.511" height="3.512" transform="translate(67.156 7.462)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45234" data-name="Rectángulo 45234" width="3.511" height="3.512" transform="translate(59.694 7.462)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45235" data-name="Rectángulo 45235" width="3.511" height="3.512" transform="translate(52.232 7.462)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45236" data-name="Rectángulo 45236" width="3.511" height="3.512" transform="translate(44.771 7.462)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45237" data-name="Rectángulo 45237" width="3.511" height="3.512" transform="translate(37.309 7.462)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45238" data-name="Rectángulo 45238" width="3.511" height="3.512" transform="translate(29.847 7.462)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45243" data-name="Rectángulo 45243" width="3.511" height="3.511" transform="translate(74.618)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45244" data-name="Rectángulo 45244" width="3.511" height="3.511" transform="translate(67.156)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45245" data-name="Rectángulo 45245" width="3.511" height="3.511" transform="translate(59.694)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45246" data-name="Rectángulo 45246" width="3.511" height="3.511" transform="translate(52.232)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45247" data-name="Rectángulo 45247" width="3.511" height="3.511" transform="translate(44.771)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45248" data-name="Rectángulo 45248" width="3.511" height="3.511" transform="translate(37.309)" fill="url(#linear-gradient)"/>
+          <rect id="Rectángulo_45249" data-name="Rectángulo 45249" width="3.511" height="3.511" transform="translate(29.847)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

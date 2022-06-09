@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Análisis de datos: el futuro de las organizaciones',
+    descripcionCurso:
+      'Este componente proporciona información para aprender a implementar proyectos de ciencia de datos desde las metodologías existentes para su análisis y a partir de la identificación de las necesidades y los requerimientos de una organización.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -22,30 +23,74 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Importancia del análisis exploratorio de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Metodología de la ciencia de datos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Identificación de problemas y oportunidades de negocio',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Estadística',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Media',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Mediana',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Moda',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo: 'Tablas de frecuencia',
+            hash: 't_4_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.5',
+            titulo: 'Varianza',
+            hash: 't_4_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.6',
+            titulo: 'Desviación estándar',
+            hash: 't_4_6',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Preparación de los datos',
         desarrolloContenidos: true,
       },
     ],
@@ -90,36 +135,90 @@ export default {
   },
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Importancia del análisis exploratorio de datos.',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'Comunicación numérica. (s.f.). <em>¿Qué es el análisis exploratorios de datos?</em>',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=UeMpYEktLfU',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Metodología de la ciencia de datos.',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      descarga: '/downloads/prueba.pdf',
+        'Torres, C., Holman, J., y Méndez, J., (2022). <em>Metodología para la analítica de datos.</em>',
+      tipo: 'Artículo',
+      link:
+        'https://ideca.gov.co/sites/default/files/MetodologiaAnaliticaDatos.pdf',
+    },
+    {
+      tema: 'Preparación de los datos.',
+      referencia:
+        'Kaggle.com. (2022). <em>Height of Male and Female by Country 2022.</em>',
+      tipo: 'Página Web',
+      link:
+        'https://www.kaggle.com/majyhain/height-of-male-and-female-by-country-2022',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: '<em>Data Sets</em>',
+      significado: 'colección de datos organizados en filas y columnas.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Dato',
+      significado:
+        'valor con el que se forman series y colecciones numéricas o categóricas.',
+    },
+    {
+      termino: '<em>Design Thinking</em>',
+      significado:
+        'metodología utilizada para realizar ideación en búsqueda de solución a problemas. ',
+    },
+    {
+      termino: 'Frecuencias',
+      significado:
+        'cantidad con la que se repite un elemento, grupo o rango dentro de una colección.',
+    },
+    {
+      termino: 'Media',
+      significado:
+        'valor que se calcula para determinar el promedio de una serie de datos numéricos.',
+    },
+    {
+      termino: 'Mediana',
+      significado: 'valor central de una serie de datos numéricos ordenados.',
+    },
+    {
+      termino: 'Moda',
+      significado:
+        'valor que se presenta con mayor frecuencia en una serie de datos.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Arias, H., Rojas, M., Sepúlveda, D., Rojas, C., y Rodríguez, Y. (2019). Modelo de negocio <em>Design Thinking</em>. UNAD.',
+      link: '',
+    },
+    {
+      referencia:
+        'Bustos, M. (2021). Técnicas e instrumentos para recoger datos del hecho social educativo. <em>Revista Científica Retos de la Ciencia</em>, 5(10), 50-61.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cordoví, V., Benito, V., Pruna, L., Muguercia, A., y Antúnez, J. (2018). Aprendizaje de las medidas de tendencia central a través de la herramienta EXeLearning. Medisan, 22(3), 257-263.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ortigoza, A., y Mateus, C. (2021). Aprendizaje basado en proyectos de las medidas de dispersión en busca de la cultura estadística en un contexto rural. Innovaciones Educativas, 23(35), 73-87.',
+      link: '',
+    },
+    {
+      referencia:
+        'Torres, C., Holman, J., y Méndez, J., (2022). Metodología para la analítica de datos. Ideca. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://ideca.gov.co/sites/default/files/MetodologiaAnaliticaDatos.pdf',
     },
   ],
   creditos: {
@@ -137,6 +236,33 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Ronald Alexander Vacca Ascanio',
+        cargo: 'Experto Temático',
+        centro: 'Centro de Diseño Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jeimy Lorena Romero Perilla',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro de la industria, la empresa y los servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro de la industria, la empresa y los servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Metodóloga',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -146,7 +272,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -158,10 +284,9 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhon Jairo Urueta Alvarez',
         cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Nombre',
