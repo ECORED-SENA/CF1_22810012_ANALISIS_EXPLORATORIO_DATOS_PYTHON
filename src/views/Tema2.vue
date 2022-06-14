@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 2
       h1 Metodología para la ciencia de datos
@@ -10,7 +10,7 @@
       .col-12.px-5.mb-4
         .row.align-items-center.mb-5
           .col-lg-4.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema2/img1.png', style="width: 450px").m-auto
           .col-lg-8
             .row.align-items-center.mb-4
@@ -20,11 +20,11 @@
               .col
                 p.mb-0 El objetivo principal de esta metodología consiste en la planeación, de manera organizada, de las metas, proyectos o implementaciones necesarias para que cualquier tipo de tarea, que requiera de un tratamiento específico, funcione de manera correcta.
             p Desde esta perspectiva, una metodología enfocada en la ciencia de datos permite definir la ruta a seguir para la debida organización y el procesamiento adecuado de los datos.
-            .estilo1
+            .estilo1(data-aos="fade-right")
               .cajon.color-primario.p-4
                 p.mb-0 Una de las metodologías más utilizadas cuando se emprenden proyectos de ciencia de datos, es la denominada ASUM (siglas en inglés de Analytics Solutions Unified Method), cuyo significado en español es Método Unificado para Soluciones de Analítica.
         p.mb-5 Una metodología de ciencia de datos permite llevar de manera organizada cada una de las etapas necesarias para desarrollar un proyecto de ciencia de datos y, de esta manera, garantizar el cumplimento de los objetivos, que se han propuesto sobre este tema.
-      .col-12.bg-color7
+      .col-12.bg-color7(data-aos="fade-left")
         .row.ms-lg-4.px-4
           .estilo2
             .col-lg-7.p-2.bg-color6
@@ -44,7 +44,7 @@
         .row.align-items-center.p-4.p-lg-0
           .col-lg-7.mb-4.mb-lg-0
             p Dentro de la implementación de dicha metodología se deben tener en cuenta las actividades propias de gestión de proyecto, entre las que se encuentran:
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.mb-3(data-aos="fade-left")
               .col-10.col-lg
                 figure
                   img(src='@/assets/curso/tema2/img8.svg', style="width: 350px").m-auto
@@ -59,18 +59,18 @@
                   img(src='@/assets/curso/tema2/img10.svg', style="width: 350px").m-auto
             p.mb-0 Para implementar la metodología ASUM es necesario tener en cuenta las siguientes fases:
           .col-lg-5
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img2.png', style="width: 650px").m-auto
     .row.justify-content-center.mb-5
       .col-lg-11
         .row.mb-5
-          .col-auto.p-4.bg-color9
+          .col-auto.p-4.bg-color9(data-aos="fade-up")
             h4.mb-0 Fase 1: inicio del proyecto
         p.mb-4 Lo primero es realizar un levantamiento de la información, se debe hacer un diagnóstico respecto a qué tan preparada está la compañía para iniciarse en un proyecto de analítica, dentro de esta etapa se deben identificar factores como:
-        figure.mb-5
+        figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/tema2/img11.svg', style="width: 1050px").m-auto
         p.mb-5 Lo primero es realizar un levantamiento de la información, se debe hacer un diagnóstico respecto a qué tan preparada está la compañía para iniciarse en un proyecto de analítica, dentro de esta etapa se deben identificar factores como:
-        SlyderF(columnas="col-lg-6 col-xl-4").mb-5
+        SlyderF(columnas="col-lg-6 col-xl-4").mb-5(data-aos="fade-right")
           .tarjeta.color-multi1.p-4
             .row.justify-content-center.mb-3
               .col-8
@@ -109,7 +109,7 @@
             p.text-center Organiza, facilita y asegura que los datos fluyan de acuerdo a los requerimientos del proyecto, debe engranar muy bien todas las áreas del negocio.
     .row
       .col-12.p-5.bg-color10.mb-5
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.p-4.bg-color9
             h4.mb-0 Fase 2: entender el negocio
         p En esta etapa es importante entender cuáles son esos objetivos, pero, además, es fundamental reconocer los requerimientos y las necesidades organizacionales, al identificar este aspecto se podrán reconocer aquellos problemas que podrían resolverse con la implementación de la analítica: 
@@ -117,13 +117,13 @@
         h4.mb-5 #[u Deteminar objetivos]
         .row.align-items-center.mb-5
           .col-lg-3.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema2/img3.png', style="width: 450px").m-auto
           .col-lg-9
             p.mb-0 Establecer  cuáles son los objetivos de la empresa o negocio es fundamental, para esto  se puede realizar un recuento histórico de negocio que  ayude a determinar la situación actual y establecer esas fortalezas que han permitido tener éxito organizacional. Determinar acciones de mejora y desde allí plantear objetivos o identificar posibles problemáticas que se pueda resolver desde el análisis de los datos.
         h4.mb-5 #[u Realizar evaluación]
         p.mb-5 Cuando se hace la evaluación, es importante tener en cuenta los siguientes aspectos:
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="fade-right")
           .col-12.col-lg.m-2.bg-white.p-4.rounded.mb-4.mb-lg-0.estilo3
             .row
               .col-12
@@ -151,7 +151,7 @@
         h4.mb-5 #[u Terminología]
         .row.align-items-center.mb-5
           .col-lg-3.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema2/img4.png', style="width: 450px").m-auto
           .col-lg-9
             p Socializar un documento y realizar capacitaciones en donde se tenga claridad de las terminología utilizada, tanto en la organización en general como la que maneja el equipo de analítica.
@@ -167,12 +167,12 @@
               .col
                 p.mb-0.txt-deco1 Es fundamental clasificar los costos en directos e indirectos dentro de la recolección de los datos y en el despliegue del proyecto.
           .col-lg-3
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img5.png', style="width: 450px").m-auto
         h4.mb-5 #[u Ruta de trabajo]
         .row.align-items-center.mb-5
           .col-lg-3.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema2/img6.png', style="width: 450px").m-auto
           .col-lg-9
             p.mb-0 Para tener éxito en el proyecto es fundamental  tener claridad  frente al  paso a paso que se debe  realizar en cada una de las etapas del proceso, de igual manera, se debe tener claro cuáles son los involucrados y sus  responsabilidades.
@@ -187,16 +187,16 @@
               .col
                 p.mb-0.txt-deco1 Con los reportes se genera un insumo fundamental que pueden ser consultados en cualquier momento durante la ejecución del proyecto.
           .col-lg-3
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img7.png', style="width: 450px").m-auto
     .row.justify-content-center.mb-5
       .col-lg-11
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.p-4.bg-color9
             h4.mb-0 Fase 3: descubrimiento y entendimiento de los datos
         p Se debe realizar la recolección de datos iniciales para determinar la consistencia de la información, se espera poder describirlos, realizar todas las exploraciones planteadas y verificar la calidad de los mismos.
         p.mb-5 Los datos iniciales pueden provenir de diferentes fuentes de información, como se observa en la siguiente figura:
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="fade-up")
           .col-11.col-lg.bg-color11.shadow.m-2.mb-4.mb-lg-0
             .row
               .col-12
@@ -221,17 +221,17 @@
               .col-12
                 p.text-center #[b Datos abiertos]
                 p.text-center La organización también puede hacer usos de datos disponibles gratuitamente en la web.
-        .bloque-texto-a.color-primario.p-4.p-lg-5.mb-5 
+        .bloque-texto-a.color-primario.p-4.p-lg-5.mb-5(data-aos="fade-left")
           .row.m-0.align-items-center.justify-content-between
             .col-12
               .bloque-texto-a__texto.p-4
                 p.mb-0 Posteriormente, es necesario describir los datos presentes con cada colección analizada, generalmente estos deben estar organizados en filas y columnas, para esto se debe realizar la identificación de las columnas y determinar cuáles de estas son datos categóricos y cuales son numéricos, también es importante establecer algunas medidas de tendencia central como la moda, media, mediana, varianzas, máximos y mínimos.
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.p-4.bg-color12
             h4.mb-0 Por otro lado, es fundamental verificar la calidad de los datos teniendo en cuenta las siguientes preguntas:
-        figure.mb-5
+        figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img25.svg', style="width: 1050px").m-auto
-        .row
+        .row(data-aos="fade-down")
           .col-12.p-4.bg-color13
             .row.align-items-center
               .col-auto
@@ -241,13 +241,13 @@
                 p.mb-0 Recuerde que es importante #[b generar informes] que indiquen el estado en que se encuentren los datos, teniendo en cuenta el proceso de recolección, la descripción de cada uno de los datos encontrados, su exploración y un reporte de la calidad de los mismos.
     .row
       .col-12.p-5.bg-color10.mb-5
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.p-4.bg-color9
             h4.mb-0 Fase 4: preparando los datos
         p Esta es una de las etapas que ocupa mayor cantidad de tiempo, pues, normalmente, los datos no cumplen con los parámetros requeridos para empezar a trabajar con ellos de manera adecuada, por ende, es necesario que en la fase anterior se realice un muy buen trabajo de investigación que permita avanzar rápidamente.
         p.mb-5 En este paso se deben tener en cuenta las siguientes operaciones:
         .row.justify-content-center.mb-5
-          .col-lg-10
+          .col-lg-10(data-aos="fade-up")
             .row
               .col-12.col-lg
                 figure
@@ -264,11 +264,11 @@
               .col-12.col-lg
                 figure
                   img(src='@/assets/curso/tema2/img31.svg', style="width: 300px").m-auto
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="fade-right")
           p.mb-0 Finalmente, dentro de esta fase es importante realizar un informe en el que se describen las diferentes situaciones que se encontraron y se inscriban, si es necesario, dentro del marco de riesgo en caso de ser así, de lo contrario igualmente se deben reportar los avances y los resultados positivos.
     .row.justify-content-center.mb-5
       .col-lg-11
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.p-4.bg-color9
             h4.mb-0 Fase 5: construir el modelo
         p.mb-5 Al inicio del proyecto se plantearon unos objetivos o metas, con la construcción de un modelo se pretende estructurar todo lo necesario para lograr alcanzarlos, en esta fase se pueden requerir varias interacciones que permite ir afinando el modelo, es muy probable que sea necesario regresar hacia atrás y volver a la fase de preparación de los datos para realizar los ajustes necesarios.
@@ -280,7 +280,7 @@
                   img(src='@/assets/curso/tema2/img21.svg')
               .col
                 p.mb-0.txt-deco1 Se invita a revisar con atención el siguiente recurso educativo para identificar los pasos que se deben tener en cuenta para la construcción del modelo:
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="fade-left")
           .col-11.col-lg.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema2/img32.svg', style="width: 450px").m-auto
@@ -292,17 +292,17 @@
               img(src='@/assets/curso/tema2/img34.svg', style="width: 450px").m-auto
     .row
       .col-12.p-3.p-lg-5.bg-color10
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.p-4.bg-color9
             h4.mb-0 Fase 6. evaluar el modelo
         p.mb-5 Con los criterios de evaluación definidos y los resultados que se obtuvieron del modelo generado anteriormente, se realiza un diagnóstico que permite determinar si el modelo utilizado es el indicado para el negocio.
         h4.mb-5 #[u En la evaluación de resultados, se deben tener en cuenta las siguientes consideraciones:]
         .row.align-items-center.mb-5
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema2/img35.svg', style="width: 450px").m-auto
           .col-lg-7
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img36.svg', style="width: 650px").m-auto
         .row.mb-5
           .col-12.p-4.bg-color14

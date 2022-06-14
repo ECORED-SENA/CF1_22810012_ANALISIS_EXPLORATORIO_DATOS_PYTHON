@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 5
       h1 Preparación de los datos
@@ -10,7 +10,7 @@
       .col-12.px-5.mb-4
         .row.align-items-center.mb-5
           .col-lg-4.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/tema5/img1.png', style="width: 550px").m-auto
           .col-lg-8
             .row.align-items-center.mb-4
@@ -19,10 +19,10 @@
                   img(src='@/assets/curso/tema5/img1.svg')
               .col
                 p.mb-0 La preparación de los datos es un paso muy importante para el análisis exploratorio, después de conocer muy bien los objetivos del negocio e identificar las metas de la organización. Es muy importante establecer el camino que se debe seguir para esta preparación.
-            .estilo1
+            .estilo1(data-aos="fade-left")
               .cajon.color-secundario.p-4.mb-4
                 p.mb-0 #[b Una de las estrategias que apoya el proceso de preparación de datos son los Data Sets, esta estrategia es un colección o representación de datos que, generalmente, están dados por filas y columnas. Estos datos se generan directamente desde los sistemas de información del negocio o se pueden encontrar como datos abiertos que se descargan desde internet, o incluso pueden comprarse.]
-        .tarjeta.color-primario.p-3.mb-5
+        .tarjeta.color-primario.p-3.mb-5(data-aos="fade-up")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema5/img2.svg")
@@ -37,12 +37,12 @@
         .row.align-items-center
           .col-lg-7.mb-4.mb-lg-0
             p También se pueden ver y editar en programas como Excel, para visualizar la información en filas y columnas, es muy común que los datos suelen presentarse en formato de Excel y sea necesario realizar la exportación a CSV.
-            .cajon.color-secundario.p-4
+            .cajon.color-secundario.p-4(data-aos="fade-right")
               p.mb-0 Si el archivo está en formato CSV y se quiere visualizar a Excel, es necesario seguir algunos pasos, por lo que  se invita a revisar el siguiente recurso educativo para conocerlos.
           .col-lg-5
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema5/img2.png', style="width: 450px").m-auto
-    .tarjeta.tarjeta--gris1.p-4.p-lg-5.mb-5
+    .tarjeta.tarjeta--gris1.p-4.p-lg-5.mb-5(data-aos="fade-up")
       SlyderA(tipo="a")
         .row.justify-content-center
           .col-12
@@ -82,10 +82,10 @@
             figure.mb-4
               img(src='@/assets/curso/tema5/img9.png', style="width: 550px").m-auto
     .row.mb-5
-      .col-auto.bg-color22
+      .col-auto.bg-color22(data-aos="fade-right")
         .p-2
           p.mb-0.text-white #[b Finalmente, después de preparar los datos se debe realizar la revisión detallada de los mismos y determinar:]
-    SlyderF(columnas="col-lg-6 col-xl-4")
+    SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
       .tarjeta.color-blanco2.shadow.p-4.m-4
         .row.justify-content-center.mb-3
           .col-8

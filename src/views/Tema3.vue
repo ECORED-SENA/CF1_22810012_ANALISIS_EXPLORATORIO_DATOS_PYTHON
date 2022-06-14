@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 3
       h1 Identificación de problemas y oportunidades de negocio
@@ -10,7 +10,7 @@
       .col-12.px-5.mb-4
         .row.align-items-center.mb-5
           .col-lg-5.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema3/img1.png', style="width: 550px").m-auto
           .col-lg-7
             .row.align-items-center.mb-4
@@ -19,14 +19,14 @@
                   img(src='@/assets/curso/tema3/img1.svg')
               .col
                 p.mb-0 Para comenzar con el análisis de datos exploratorio es primordial, primero, conocer el negocio o la organización para la cual se está desarrollando el análisis, además, deben ser muy claros los objetivos, requerimientos y metas de la compañía.
-            .estilo1
+            .estilo1(data-aos="fade-right")
               .cajon.color-secundario.p-4.mb-4
                 p.mb-0 #[b Design Thinking es una metodología que utiliza herramientas creativas para identificar las necesidades y requerimientos de los usuarios o de los clientes y, desde allí, desarrollar ideas innovadoras para lograr satisfacerlas.]
-            .row
+            .row(data-aos="fade-up")
               .col-auto.p-2.bg-color20.rounded
                 p.mb-0.text-white #[b Fases del Design Thinking]
         .row.justify-content-center
-          .col-lg-10
+          .col-lg-10(data-aos="fade-right")
             .row.justify-content-center
               .col-10.col-lg.mb-4.mb-lg-0
                 figure
@@ -93,16 +93,16 @@
                   figure
                     img(src='@/assets/curso/tema3/img11.svg', style="width: 170px").m-auto
       .col-lg-5
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img2.png', style="width: 450px").m-auto
     p.mb-5 Para la etapa de empatía se puede hacer uso de la herramienta denominada mapa de empatía la cual ayuda a identificar las posibles variables que afectan el negocio. El siguiente recurso educativo permite visualizar cómo se puede aplicar dicha herramienta:
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up")
       .col-auto.bg-color22
         .p-2
           p.mb-0.text-white #[b Siguiendo con el ejemplo, se plantea un arquetipo correspondiente a un cliente de la tienda de café; haga clic en cada botón para conocerlo:]
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img3.png', style="width: 550px").m-auto
       .col-lg-7
         SlyderA(tipo="a")
@@ -191,9 +191,9 @@
               .col-lg-9
                 p.mb-0 Siguiendo el ejemplo anterior, el negocio de café tendrá que poner mucha atención a dos factores que pueden estar afectando significativamente el negocio como:
           .col-lg-4
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema3/img19.svg', style="width: 350px").m-auto
-        .bloque-texto-a.color-primario.p-4.p-lg-5
+        .bloque-texto-a.color-primario.p-4.p-lg-5(data-aos="fade-right")
           .row.m-0.align-items-center.justify-content-between
             .col-12
               .bloque-texto-a__texto.p-4
