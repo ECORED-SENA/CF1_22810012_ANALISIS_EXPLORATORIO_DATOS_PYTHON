@@ -1,3 +1,23 @@
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 50%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
 .banner-principal__row
   height: 450px !important
   
@@ -108,11 +128,11 @@
 
 .color-blanco
   background-color: white
-  height: 300px
+  height: 260px
 
 .color-blanco2
   background-color: white
-  height: 400px
+  height: 320px
 
 .color-multi1
   background-color: #f57998
@@ -138,6 +158,17 @@
   p 
     position: relative
     z-index: 1
+
+.slyder-a__tipo-b
+  top: -50px
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  position: relative
+  right: 20px !important
+
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  position: relative
+  left: 20px !important
 
 .bg-color1
   margin-inline: -3.2rem !important
@@ -194,6 +225,18 @@
   p
     transition: all 0.5s ease-in-out
     color: white
+  .bg-fig1
+    figure
+      img
+        transition: all 1s ease-in-out
+        opacity: 1
+        display: block
+  .bg-fig2
+    figure
+      img
+        transition: all 1s ease-in-out
+        opacity: 0
+        display: none
 .bg-color11:hover
   background-color: #F6F6F6
   background-image: none
@@ -201,6 +244,18 @@
   p
     transition: all 0.5s ease-in-out
     color: #12263F
+  .bg-fig1
+    figure
+      img
+        transition: all 1s ease-in-out
+        opacity: 0
+        display: none
+  .bg-fig2
+    figure
+      img
+        transition: all 1s ease-in-out
+        opacity: 1
+        display: block
 
 .bg-color12
   background-color: #f57998
@@ -370,9 +425,30 @@
   .bg-color5
     margin-bottom: 0px
 
+  .bg-color21
+    background-position-y: -50px
+
+  .bg-color23
+    background-color: #f6f6f6
+
+  .bg-color24
+    background-color: #f6f6f6
+
+  .bg-color25
+    background-color: #f6f6f6
+
+  .bg-color26
+    background-color: #f6f6f6
+
+  .bg-color27
+    background-color: #f6f6f6
+
   .estilo1
     right: 0px
     width: 100%
+
+  .estilo4
+    top: -18px
   
   .dual-txt-deco
     position: relative

@@ -43,7 +43,7 @@
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema5/img2.png', style="width: 450px").m-auto
     .tarjeta.tarjeta--gris1.p-4.p-lg-5.mb-5(data-aos="fade-up")
-      SlyderA(tipo="a")
+      SlyderA(tipo="b")
         .row.justify-content-center
           .col-12
             p.mb-5 #[b.txt-deco1 PASO 1.] Al abrir directamente el archivo CSV, este se debe observar de  la siguiente manera:
@@ -85,46 +85,46 @@
       .col-auto.bg-color22(data-aos="fade-right")
         .p-2
           p.mb-0.text-white #[b Finalmente, después de preparar los datos se debe realizar la revisión detallada de los mismos y determinar:]
-    SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
-      .tarjeta.color-blanco2.shadow.p-4.m-4
+    SlyderF(columnas="col-lg-6 col-xl-3")(data-aos="fade-left")
+      .tarjeta.color-blanco2.shadow-sm.p-3.m-1
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img4.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img4.svg', style="width: 100px" alt='AvatarTop').m-auto
         p.text-center El total de registros.
-      .tarjeta.color-blanco2.shadow.p-4.m-4
+      .tarjeta.color-blanco2.shadow-sm.p-3.m-1
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img5.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img5.svg', style="width: 100px" alt='AvatarTop').m-auto
         p.text-center Cuáles son las variables categóricas.
-      .tarjeta.color-blanco2.shadow.p-4.m-4
+      .tarjeta.color-blanco2.shadow-sm.p-3.m-1
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img6.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img6.svg', style="width: 100px" alt='AvatarTop').m-auto
         p.text-center Las variables numéricas.
-      .tarjeta.color-blanco2.shadow.p-4.m-4
+      .tarjeta.color-blanco2.shadow-sm.p-3.m-1
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img7.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img7.svg', style="width: 100px" alt='AvatarTop').m-auto
         p.text-center Establecer si faltan datos en alguna de las variables.
-      .tarjeta.color-blanco2.shadow.p-4.m-4
+      .tarjeta.color-blanco2.shadow-sm.p-3.m-1
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img8.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img8.svg', style="width: 100px" alt='AvatarTop').m-auto
         p.text-center Establecer si existen inconsistencia en los registros, por ejemplo, que dentro de la variable edad que es numérica se tenga valores de tipo carácter.
-      .tarjeta.color-blanco2.shadow.p-4.m-4
+      .tarjeta.color-blanco2.shadow-sm.p-3.m-1
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img9.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img9.svg', style="width: 100px" alt='AvatarTop').m-auto
         p.text-center Establecer si es necesario eliminar los registros que presenta valores vacíos nulos de las variables seleccionadas para el análisis.
-      .tarjeta.color-blanco2.shadow.p-4.m-4
+      .tarjeta.color-blanco2.shadow-sm.p-3.m-1
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img10.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img10.svg', style="width: 100px" alt='AvatarTop').m-auto
         p.text-center Establecer que datos necesitan ser remplazados.
-      .tarjeta.color-blanco2.shadow.p-4.m-4
+      .tarjeta.color-blanco2.shadow-sm.p-3.m-1
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/tema5/img11.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema5/img11.svg', style="width: 100px" alt='AvatarTop').m-auto
         p.text-center Diseñar un plan con las diferentes opciones que, de implementación, puede ser que sobre los mismos datos se puedan realizar dos tipos de análisis.
 
 </template>

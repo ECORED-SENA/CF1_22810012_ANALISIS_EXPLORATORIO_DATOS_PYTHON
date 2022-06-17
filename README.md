@@ -1,8 +1,8 @@
-# **Análisis de datos: el futuro de las organizaciones**
+# **sena-base-2021 v6.2.1**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/CF1_22810012_ANALISIS_EXPLORATORIO_DATOS_PYTHON/](https://ecored-sena.github.io/CF1_22810012_ANALISIS_EXPLORATORIO_DATOS_PYTHON/)
+[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
 
 #
 

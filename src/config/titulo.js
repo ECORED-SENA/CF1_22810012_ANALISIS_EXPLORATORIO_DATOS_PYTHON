@@ -1,1 +1,2 @@
-module.exports = 'Análisis de datos: el futuro de las organizaciones'
+module.exports =
+  'Componente Formativo con un nombre extremadamente largo y extenso'

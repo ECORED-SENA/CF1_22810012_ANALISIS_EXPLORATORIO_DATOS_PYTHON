@@ -133,29 +133,32 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: 'Importancia del análisis exploratorio de datos.',
       referencia:
-        'Comunicación numérica. (s.f.). <em>¿Qué es el análisis exploratorios de datos?</em>',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=UeMpYEktLfU',
+        'Arias, H., Rojas, M., Sepúlveda, D., Rojas, C., y Rodríguez, Y. (2019). Modelo de negocio <em>Design Thinking</em>. UNAD.',
+      link: '',
     },
     {
-      tema: 'Metodología de la ciencia de datos.',
       referencia:
-        'Torres, C., Holman, J., y Méndez, J., (2022). <em>Metodología para la analítica de datos.</em>',
-      tipo: 'Artículo',
+        'Bustos, M. (2021). Técnicas e instrumentos para recoger datos del hecho social educativo. <em>Revista Científica Retos de la Ciencia</em>, 5(10), 50-61.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cordoví, V., Benito, V., Pruna, L., Muguercia, A., y Antúnez, J. (2018). Aprendizaje de las medidas de tendencia central a través de la herramienta EXeLearning. Medisan, 22(3), 257-263.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ortigoza, A., y Mateus, C. (2021). Aprendizaje basado en proyectos de las medidas de dispersión en busca de la cultura estadística en un contexto rural. Innovaciones Educativas, 23(35), 73-87.',
+      link: '',
+    },
+    {
+      referencia:
+        'Torres, C., Holman, J., y Méndez, J., (2022). Metodología para la analítica de datos. Ideca. ',
       link:
         'https://ideca.gov.co/sites/default/files/MetodologiaAnaliticaDatos.pdf',
-    },
-    {
-      tema: 'Preparación de los datos.',
-      referencia:
-        'Kaggle.com. (2022). <em>Height of Male and Female by Country 2022.</em>',
-      tipo: 'Página Web',
-      link:
-        'https://www.kaggle.com/majyhain/height-of-male-and-female-by-country-2022',
     },
   ],
   glosario: [
@@ -193,32 +196,29 @@ export default {
         'valor que se presenta con mayor frecuencia en una serie de datos.',
     },
   ],
-  referencias: [
+  complementario: [
     {
+      tema: 'Importancia del análisis exploratorio de datos.',
       referencia:
-        'Arias, H., Rojas, M., Sepúlveda, D., Rojas, C., y Rodríguez, Y. (2019). Modelo de negocio <em>Design Thinking</em>. UNAD.',
-      link: '',
+        'Comunicación numérica. (s.f.). <em>¿Qué es el análisis exploratorios de datos?</em>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=UeMpYEktLfU',
     },
     {
+      tema: 'Metodología de la ciencia de datos.',
       referencia:
-        'Bustos, M. (2021). Técnicas e instrumentos para recoger datos del hecho social educativo. <em>Revista Científica Retos de la Ciencia</em>, 5(10), 50-61.',
-      link: '',
-    },
-    {
-      referencia:
-        'Cordoví, V., Benito, V., Pruna, L., Muguercia, A., y Antúnez, J. (2018). Aprendizaje de las medidas de tendencia central a través de la herramienta EXeLearning. Medisan, 22(3), 257-263.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ortigoza, A., y Mateus, C. (2021). Aprendizaje basado en proyectos de las medidas de dispersión en busca de la cultura estadística en un contexto rural. Innovaciones Educativas, 23(35), 73-87.',
-      link: '',
-    },
-    {
-      referencia:
-        'Torres, C., Holman, J., y Méndez, J., (2022). Metodología para la analítica de datos. Ideca. ',
+        'Torres, C., Holman, J., y Méndez, J., (2022). <em>Metodología para la analítica de datos.</em>',
+      tipo: 'Artículo',
       link:
         'https://ideca.gov.co/sites/default/files/MetodologiaAnaliticaDatos.pdf',
+    },
+    {
+      tema: 'Preparación de los datos.',
+      referencia:
+        'Kaggle.com. (2022). <em>Height of Male and Female by Country 2022.</em>',
+      tipo: 'Página Web',
+      link:
+        'https://www.kaggle.com/majyhain/height-of-male-and-female-by-country-2022',
     },
   ],
   creditos: {
@@ -278,7 +278,37 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -299,17 +329,17 @@ export default {
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },

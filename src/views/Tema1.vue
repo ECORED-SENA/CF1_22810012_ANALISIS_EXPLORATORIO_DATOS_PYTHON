@@ -93,41 +93,41 @@
         .cajon.color-primario.p-4.mb-5(data-aos="fade-up")
           p.mb-0 Todo lo anterior rescata la importancia del análisis exploratorio de datos, que se resume en la forma de entender, visualizar y extraer información relevante de un conjunto de datos para establecer la ruta o técnica más adecuada para procesarlos.
         p.mb-5 A continuación, se podrá conocer a más detalle los pasos necesarios para el análisis exploratorio de datos.
-        SlyderF(columnas="col-lg-6 col-xl-4").mb-5(data-aos="fade-right")
-          .tarjeta.color-blanco.p-4
+        SlyderF(columnas="col-lg-6 col-xl-3").mb-5(data-aos="fade-right")
+          .tarjeta.color-blanco.shadow-sm.p-4.m-1
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema1/img10.svg', style="width: 100px" alt='AvatarTop').m-auto
             p.text-center Plantear la pregunta de arranque: ¿qué se quiere responder?
-          .tarjeta.color-blanco.p-4
+          .tarjeta.color-blanco.shadow-sm.p-4.m-1
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/img11.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema1/img11.svg', style="width: 100px" alt='AvatarTop').m-auto
             p.text-center Tener una idea general del conjunto de datos que se tienen.
-          .tarjeta.color-blanco.p-4
+          .tarjeta.color-blanco.shadow-sm.p-4.m-1
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema1/img12.svg', style="width: 100px" alt='AvatarTop').m-auto
             p.text-center Clasificar los datos por tipos.
-          .tarjeta.color-blanco.p-4
+          .tarjeta.color-blanco.shadow-sm.p-4.m-1
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/img13.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema1/img13.svg', style="width: 100px" alt='AvatarTop').m-auto
             p.text-center Elegir el tipo de estadística necesaria para el análisis de dichos datos.
-          .tarjeta.color-blanco.p-4
+          .tarjeta.color-blanco.shadow-sm.p-4.m-1
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/img14.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema1/img14.svg', style="width: 100px" alt='AvatarTop').m-auto
             p.text-center Visualizar los datos.
-          .tarjeta.color-blanco.p-4
+          .tarjeta.color-blanco.shadow-sm.p-4.m-1
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema1/img15.svg', style="width: 100px" alt='AvatarTop').m-auto
             p.text-center Analizar las posibles variables y sus interacciones.
-          .tarjeta.color-blanco.p-4
+          .tarjeta.color-blanco.shadow-sm.p-4.m-1
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema1/img16.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema1/img16.svg', style="width: 100px" alt='AvatarTop').m-auto
             p.text-center Extraer conclusiones del análisis.
 
 </template>

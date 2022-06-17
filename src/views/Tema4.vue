@@ -81,7 +81,7 @@
                 .tarjeta-avatar-b
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/tema4/img1.svg' alt='AvatarTop')
-                  .tarjeta.tarjeta--verde
+                  .tarjeta.tarjeta--verde.shadow-sm
                     .p-5
                       p.mb-0 La sumatoria total arroja 39,5 si ese resultado se divide entre el total de estudiantes que son 10, el resultado no dará la media.
             .row.justify-content-center.mb-4
@@ -150,7 +150,7 @@
                 .tarjeta-avatar-b
                   .tarjeta-avatar-b__img
                     img(src='@/assets/curso/tema4/img1.svg' alt='AvatarTop')
-                  .tarjeta.tarjeta--naranja
+                  .tarjeta.tarjeta--naranja.shadow-sm
                     .p-5
                       p.mb-0 Como se observa en el cuadro anterior, a pesar de que el 70% presenta una valoración baja y con solo 30% de los datos con valoración alta, el comportamiento de la media tiende a subir.
             .row.justify-content-center.mb-4
@@ -233,7 +233,7 @@
             .tarjeta-avatar-b
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema4/img1.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--verde
+              .tarjeta.tarjeta--verde.shadow-sm
                 .p-5
                   p.mb-0 El valor de la mediana para este conjunto de datos sería 2, teniendo en cuenta que los datos son impares y así quedarían la misma cantidad de registros al realizar la división.
         ul.ms-4.mb-5
@@ -301,7 +301,7 @@
             .tarjeta-avatar-b
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema4/img1.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--naranja
+              .tarjeta.tarjeta--naranja.shadow-sm
                 .p-5
                   p.mb-0 Como se observa en la tabla, se toman los dos datos centrales dejando igual cantidad de registros en ambas partes, se suman los números centrales y se divide entre 2 es decir se les aplica la media.
         .estilo5
@@ -396,7 +396,7 @@
             .tarjeta-avatar-b
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema4/img1.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--naranja
+              .tarjeta.tarjeta--naranja.shadow-sm
                 .p-5
                   p.mb-0 En la tabla anterior se visualiza la agrupación de los datos y se especifican la cantidad de veces que se repite ese valor en la secuencia, el valor con mayor cantidad de veces repetido en la secuencia es la MODA.
     Separador
@@ -442,7 +442,7 @@
             .tarjeta-avatar-b
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema4/img1.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--verde
+              .tarjeta.tarjeta--verde.shadow-sm
                 .p-5
                   p.mb-0 Los resultados arrojan la siguiente frecuencia absoluta, después de procesar los datos y agrupar en el rango indicado:
         .row.justify-content-center.mb-5
@@ -515,7 +515,7 @@
             .tarjeta-avatar-b
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema4/img1.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--naranja
+              .tarjeta.tarjeta--naranja.shadow-sm
                 .p-5
                   p.mb-0  Se realizan los cálculos de los datos en porcentajes lo que permitirá entenderlos mejor, para ello se divide cada uno de los elementos de la frecuencia absoluta y acumulada sobre el total de los registros, a este paso se le denomina frecuencia relativa.
         p.mb-5 El procedimiento es dividir cada uno de los registros entre 200 que corresponde al total de los registros así:
@@ -614,7 +614,7 @@
                     .tarjeta-avatar-b
                       .tarjeta-avatar-b__img
                         img(src='@/assets/curso/tema4/img1.svg' alt='AvatarTop')
-                      .tarjeta.tarjeta--verde
+                      .tarjeta.tarjeta--verde.shadow-sm
                         .p-5
                           p.mb-0 Como se puede observar la mayor concentración con 80% de los datos se encuentran en los dos primeros grupos.
     Separador

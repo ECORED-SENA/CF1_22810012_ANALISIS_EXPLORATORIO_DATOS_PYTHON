@@ -45,18 +45,30 @@
           .col-lg-7.mb-4.mb-lg-0
             p Dentro de la implementación de dicha metodología se deben tener en cuenta las actividades propias de gestión de proyecto, entre las que se encuentran:
             .row.justify-content-center.mb-3(data-aos="fade-left")
-              .col-10.col-lg
-                figure
-                  img(src='@/assets/curso/tema2/img8.svg', style="width: 350px").m-auto
-              .col-10.col-lg
-                figure
-                  img(src='@/assets/curso/tema2/img9.svg', style="width: 350px").m-auto
-              .col-10.col-lg
-                figure
-                  img(src='@/assets/curso/tema2/img9.svg', style="width: 350px").m-auto
-              .col-10.col-lg
-                figure
-                  img(src='@/assets/curso/tema2/img10.svg', style="width: 350px").m-auto
+              .col-8.col-lg.m-2
+                .row.bg-white.rounded.shadow-sm
+                  .col-12.p-4
+                    figure.mb-3
+                      img(src='@/assets/curso/tema2/img7.svg', style="width: 70px").m-auto
+                    p.text-center.mb-0 #[b Inicio]
+              .col-8.col-lg.m-2
+                .row.bg-white.rounded.shadow-sm
+                  .col-12.p-4
+                    figure.mb-3
+                      img(src='@/assets/curso/tema2/img8.svg', style="width: 70px").m-auto
+                    p.text-center.mb-0 #[b Planeación]
+              .col-8.col-lg.m-2
+                .row.bg-white.rounded.shadow-sm
+                  .col-12.p-4
+                    figure.mb-3
+                      img(src='@/assets/curso/tema2/img9.svg', style="width: 70px").m-auto
+                    p.text-center.mb-0 #[b Ejecución]
+              .col-8.col-lg.m-2
+                .row.bg-white.rounded.shadow-sm
+                  .col-12.p-4
+                    figure.mb-3
+                      img(src='@/assets/curso/tema2/img10.svg', style="width:70px").m-auto
+                    p.text-center.mb-0 #[b Cierre]
             p.mb-0 Para implementar la metodología ASUM es necesario tener en cuenta las siguientes fases:
           .col-lg-5
             figure(data-aos="fade-right")
@@ -70,41 +82,41 @@
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/tema2/img11.svg', style="width: 1050px").m-auto
         p.mb-5 Lo primero es realizar un levantamiento de la información, se debe hacer un diagnóstico respecto a qué tan preparada está la compañía para iniciarse en un proyecto de analítica, dentro de esta etapa se deben identificar factores como:
-        SlyderF(columnas="col-lg-6 col-xl-4").mb-5(data-aos="fade-right")
-          .tarjeta.color-multi1.p-4
+        SlyderF(columnas="col-lg-6 col-xl-3").mb-5(data-aos="fade-right")
+          .tarjeta.color-multi1.p-4.shadow-sm
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img12.svg', style="width: 80px" alt='AvatarTop').m-auto
             h4.text-center.text-white #[b Patrocinador del proyecto]
             p.text-center.text-white Hace parte del nivel superior, y toma decisiones clave para que se faciliten todos los requerimientos a nivel tecnológico y humano.
-          .tarjeta.color-multi2.p-4
+          .tarjeta.color-multi2.p-4.shadow-sm
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img13.svg', style="width: 70px" alt='AvatarTop').m-auto
             h4.text-center #[b Arquitecto empresarial]
             p.text-center Mantiene estrecha relación con los estrategas de la empresa, para mantener todo el inventario tecnológico alineado con las metas empresariales.
-          .tarjeta.color-multi1.p-4
+          .tarjeta.color-multi1.p-4.shadow-sm
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img14.svg', style="width: 70px" alt='AvatarTop').m-auto
             h4.text-center.text-white #[b Arquitecto de datos]
             p.text-center.text-white Encargado de asegurar la infraestructura tecnológica requerida para soportar proyectos de ciencias de datos, recopilación, análisis y procesamiento.
-          .tarjeta.color-multi2.p-4
+          .tarjeta.color-multi2.p-4.shadow-sm
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img15.svg', style="width: 70px" alt='AvatarTop').m-auto
             h4.text-center #[b Científico de datos]
             p.text-center Es la persona que entiende muy bien los datos, es experto en estadística y herramientas tecnológicas para análisis de datos.
-          .tarjeta.color-multi1.p-4
+          .tarjeta.color-multi1.p-4.shadow-sm
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img16.svg', style="width: 70px" alt='AvatarTop').m-auto
             h4.text-center.text-white #[b Analista de negocios]
             p.text-center.text-white Conoce muy bien el negocio, las estrategias objetivos y metas de la compañía, debe trabajar muy de la mano con el científico de datos.
-          .tarjeta.color-multi2.p-4
+          .tarjeta.color-multi2.p-4.shadow-sm
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img17.svg', style="width: 70px" alt='AvatarTop').m-auto
             h4.text-center #[b Gerente de datos y analítica]
             p.text-center Organiza, facilita y asegura que los datos fluyan de acuerdo a los requerimientos del proyecto, debe engranar muy bien todas las áreas del negocio.
     .row
@@ -156,7 +168,7 @@
           .col-lg-9
             p Socializar un documento y realizar capacitaciones en donde se tenga claridad de las terminología utilizada, tanto en la organización en general como la que maneja el equipo de analítica.
             p.mb-0 #[b Es importante que todos los miembros de la organización hablen el mismo idioma.]
-        h4.mb-5 #[u Terminología]
+        h4.mb-5 #[u Costo y beneficio]
         .row.align-items-center.mb-5
           .col-lg-9.mb-4.mb-lg-0
             p Es importante calcular los costos del proyecto y determinar cuáles serán las utilidades una vez  este se haya finalizado.
@@ -196,28 +208,40 @@
             h4.mb-0 Fase 3: descubrimiento y entendimiento de los datos
         p Se debe realizar la recolección de datos iniciales para determinar la consistencia de la información, se espera poder describirlos, realizar todas las exploraciones planteadas y verificar la calidad de los mismos.
         p.mb-5 Los datos iniciales pueden provenir de diferentes fuentes de información, como se observa en la siguiente figura:
-        .row.justify-content-center.mb-5(data-aos="fade-up")
+        .row.justify-content-center.mb-5
           .col-11.col-lg.bg-color11.shadow.m-2.mb-4.mb-lg-0
             .row
               .col-12
-                figure
-                  img(src='@/assets/curso/tema2/img22.svg', style="width: 200px").m-auto
+                .bg-fig1
+                  figure
+                    img(src='@/assets/curso/tema2/img22.svg', style="width: 200px").m-auto
+                .bg-fig2
+                  figure
+                    img(src='@/assets/curso/tema2/img48.svg', style="width: 200px").m-auto
               .col-12
                 p.text-center #[b Fuente propia de datos]
                 p.text-center Incluye todo tipo de información como por ejemplo, encuestas, movimientos transaccionales  y demás datos relevantes de la compañía.
           .col-11.col-lg.bg-color11.shadow.m-2.mb-4.mb-lg-0
             .row
               .col-12
-                figure
-                  img(src='@/assets/curso/tema2/img23.svg', style="width: 200px").m-auto
+                .bg-fig1
+                  figure
+                    img(src='@/assets/curso/tema2/img50.svg', style="width: 200px").m-auto
+                .bg-fig2
+                  figure
+                    img(src='@/assets/curso/tema2/img23.svg', style="width: 200px").m-auto
               .col-12
                 p.text-center #[b Compra de datos]
                 p.text-center En caso de que la organización no cuente con cierto tipo de datos, puede optar por comprarlos.
           .col-11.col-lg.bg-color11.shadow.m-2.mb-4.mb-lg-0
             .row
               .col-12
-                figure
-                  img(src='@/assets/curso/tema2/img24.svg', style="width: 200px").m-auto
+                .bg-fig1
+                  figure
+                    img(src='@/assets/curso/tema2/img24.svg', style="width: 200px").m-auto
+                .bg-fig2
+                  figure
+                    img(src='@/assets/curso/tema2/img49.svg', style="width: 200px").m-auto
               .col-12
                 p.text-center #[b Datos abiertos]
                 p.text-center La organización también puede hacer usos de datos disponibles gratuitamente en la web.
@@ -313,17 +337,17 @@
               .col
                 p.mb-0 Finalmente, el siguiente recurso educativo brindará claridad respecto a los procesos que se deben tener en cuenta para realizar una revisión final de todas las etapas.
         SlyderA(tipo="a")
-          .row.align-items-center.bg-color15
+          .row.justify-content-center.align-items-center.bg-color15
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/img43.svg', style="width: 450px").m-auto
-            .col-lg-8
+            .col-lg-6
               .row.justify-content-center
                 .col-lg-8
                   .dual-txt-deco
                     p Revise que todo lo que se planeó al inicio del proyecto se haya llevado a cabo, determine los motivos por los que algunas acciones de las planeadas inicialmente no se ejecutaron.
-          .row.align-items-center.bg-color16
-            .col-lg-8.mb-4.mb-lg-0
+          .row.justify-content-center.align-items-center.bg-color16
+            .col-lg-6.mb-4.mb-lg-0
               .row.justify-content-center
                 .col-lg-8
                   .dual-txt-deco
@@ -331,17 +355,17 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/tema2/img44.svg', style="width: 450px").m-auto
-          .row.align-items-center.bg-color17
+          .row.justify-content-center.align-items-center.bg-color17
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/img45.svg', style="width: 450px").m-auto
-            .col-lg-8
+            .col-lg-6
               .row.justify-content-center
                 .col-lg-8
                   .dual-txt-deco
                     p Después de realizar las debidas correcciones, prepare nuevamente los datos necesarios para dar respuesta a los requerimientos identificados.
-          .row.align-items-center.bg-color18
-            .col-lg-8.mb-4.mb-lg-0
+          .row.justify-content-center.align-items-center.bg-color18
+            .col-lg-6.mb-4.mb-lg-0
               .row.justify-content-center
                 .col-lg-8
                   .dual-txt-deco
@@ -349,11 +373,11 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/tema2/img46.svg', style="width: 450px").m-auto
-          .row.align-items-center.bg-color19
+          .row.justify-content-center.align-items-center.bg-color19
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/img47.svg', style="width: 450px").m-auto
-            .col-lg-8
+            .col-lg-6
               .row.justify-content-center
                 .col-lg-8
                   .dual-txt-deco
