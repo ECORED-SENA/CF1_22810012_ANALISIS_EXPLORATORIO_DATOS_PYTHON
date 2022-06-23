@@ -21,7 +21,7 @@
                 p.mb-0 La preparación de los datos es un paso muy importante para el análisis exploratorio, después de conocer muy bien los objetivos del negocio e identificar las metas de la organización. Es muy importante establecer el camino que se debe seguir para esta preparación.
             .estilo1(data-aos="fade-left")
               .cajon.color-secundario.p-4.mb-4
-                p.mb-0 #[b Una de las estrategias que apoya el proceso de preparación de datos son los Data Sets, esta estrategia es un colección o representación de datos que, generalmente, están dados por filas y columnas. Estos datos se generan directamente desde los sistemas de información del negocio o se pueden encontrar como datos abiertos que se descargan desde internet, o incluso pueden comprarse.]
+                p.mb-0 #[b Una de las estrategias que apoya el proceso de preparación de datos son los #[i Data Sets], esta estrategia es un colección o representación de datos que, generalmente, están dados por filas y columnas. Estos datos se generan directamente desde los sistemas de información del negocio o se pueden encontrar como datos abiertos que se descargan desde internet, o incluso pueden comprarse.]
         .tarjeta.color-primario.p-3.mb-5(data-aos="fade-up")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -78,7 +78,13 @@
               p.mb-0 Estos tipos de archivos son los más comunes en las organizaciones, los sistemas de información exportan la información en formato CSV, y se hace necesario saber qué hacer cuando están en uno u otro formato.
         .row.justify-content-center
           .col-12
-            p.mb-5 #[b.txt-deco1 PASO 7.] El formato que se debe utilizar para guardar el archivo es CSV, y de esta manera se convertirá a este formato muchos más liviano y que será el que se utilice para procesar.
+            p #[b.txt-deco1 PASO 7.] Por otro lado, si el formato en que está el archivo es tipo Excel es decir, extensión .XLS o XLSX, el procedimiento que se debe realizar para guardar los datos, y que posteriormente se pueda procesar en la herramienta de análisis de datos, es el siguiente:
+            p.mb-5 Selecciona guardar como:
+            figure
+              img(src='@/assets/curso/tema5/img10.png', style="width: 80px").m-auto
+        .row.justify-content-center
+          .col-12
+            p.mb-5 #[b.txt-deco1 PASO 8.] El formato que se debe utilizar para guardar el archivo es CSV, y de esta manera se convertirá a este formato muchos más liviano y que será el que se utilice para procesar.
             figure.mb-4
               img(src='@/assets/curso/tema5/img9.png', style="width: 550px").m-auto
     .row.mb-5

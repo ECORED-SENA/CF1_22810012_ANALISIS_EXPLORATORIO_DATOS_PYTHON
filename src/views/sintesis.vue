@@ -10,12 +10,12 @@
             figure
               img(src='@/assets/curso/sintesis/img1.png', style="width: 550px").m-auto
           .col-lg-8
-            .row.align-items-center.mb-4
+            .row.align-items-start.mb-4
               .col-auto
                 figure
                   img(src='@/assets/curso/sintesis/img3.svg')
               .col
-                p.mb-0 Para comenzar con el análisis de datos exploratorio es primordial, primero, conocer el negocio o la organización para la cual se está desarrollando el análisis, además, deben ser muy claros los objetivos, requerimientos y metas de la compañía.
+                p.mb-0 En la actualidad las empresas, independientemente de su tamaño, manejan gran cantidad de datos e información que se han ido convirtiendo en la herramienta base para la toma de decisiones estratégicas. Desde esta perspectiva, este componente resulta fundamental al brindar las bases para desarrollar un proyecto de análisis exploratorio de datos. En este componente se aclaran conceptos, se identifican metodologías de aplicación, además se describen estrategias puntuales para la preparación de datos y el análisis estadístico de datos.
             .estilo1
               .cajon.color-secundario.p-4
                 p.mb-0 Una breve revisión de los temas vistos, se encuentra en el siguiente esquema:

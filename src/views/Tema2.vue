@@ -22,7 +22,7 @@
             p Desde esta perspectiva, una metodología enfocada en la ciencia de datos permite definir la ruta a seguir para la debida organización y el procesamiento adecuado de los datos.
             .estilo1(data-aos="fade-right")
               .cajon.color-primario.p-4
-                p.mb-0 Una de las metodologías más utilizadas cuando se emprenden proyectos de ciencia de datos, es la denominada ASUM (siglas en inglés de Analytics Solutions Unified Method), cuyo significado en español es Método Unificado para Soluciones de Analítica.
+                p.mb-0 Una de las metodologías más utilizadas cuando se emprenden proyectos de ciencia de datos, es la denominada ASUM (siglas en inglés de #[i Analytics Solutions Unified Method]), cuyo significado en español es Método Unificado para Soluciones de Analítica.
         p.mb-5 Una metodología de ciencia de datos permite llevar de manera organizada cada una de las etapas necesarias para desarrollar un proyecto de ciencia de datos y, de esta manera, garantizar el cumplimento de los objetivos, que se han propuesto sobre este tema.
       .col-12.bg-color7(data-aos="fade-left")
         .row.ms-lg-4.px-4
@@ -81,7 +81,7 @@
         p.mb-4 Lo primero es realizar un levantamiento de la información, se debe hacer un diagnóstico respecto a qué tan preparada está la compañía para iniciarse en un proyecto de analítica, dentro de esta etapa se deben identificar factores como:
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/tema2/img11.svg', style="width: 1050px").m-auto
-        p.mb-5 Lo primero es realizar un levantamiento de la información, se debe hacer un diagnóstico respecto a qué tan preparada está la compañía para iniciarse en un proyecto de analítica, dentro de esta etapa se deben identificar factores como:
+        p.mb-5 Para conocer los roles necesarios con miras al inicio con el desarrollo de un proyecto de análisis de datos, se debe revisar el siguiente recurso educativo:
         SlyderF(columnas="col-lg-6 col-xl-3").mb-5(data-aos="fade-right")
           .tarjeta.color-multi1.p-4.shadow-sm
             .row.justify-content-center.mb-3
@@ -151,7 +151,7 @@
                   img(src='@/assets/curso/tema2/img19.svg', style="width: 100px").m-auto
               .col-12
                 p.text-center #[b ¿Cuáles son los requerimientos y restricciones?]
-                p.text-center Realice un cronograma de las actividades necesarias para desarrollar el proyecto, tenga en cuenta las políticas de protección de datos y revise las limitantes en hardware y software.
+                p.text-center Realice un cronograma de las actividades necesarias para desarrollar el proyecto, tenga en cuenta las políticas de protección de datos y revise las limitantes en #[i hardware] y #[i software].
           .col-12.col-lg.m-2.bg-white.p-4.rounded.mb-4.mb-lg-0.estilo3
             .row
               .col-12
@@ -244,7 +244,7 @@
                     img(src='@/assets/curso/tema2/img49.svg', style="width: 200px").m-auto
               .col-12
                 p.text-center #[b Datos abiertos]
-                p.text-center La organización también puede hacer usos de datos disponibles gratuitamente en la web.
+                p.text-center La organización también puede hacer usos de datos disponibles gratuitamente en la #[i web].
         .bloque-texto-a.color-primario.p-4.p-lg-5.mb-5(data-aos="fade-left")
           .row.m-0.align-items-center.justify-content-between
             .col-12

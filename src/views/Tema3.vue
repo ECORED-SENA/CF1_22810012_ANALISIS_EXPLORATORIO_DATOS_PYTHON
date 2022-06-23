@@ -21,7 +21,8 @@
                 p.mb-0 Para comenzar con el análisis de datos exploratorio es primordial, primero, conocer el negocio o la organización para la cual se está desarrollando el análisis, además, deben ser muy claros los objetivos, requerimientos y metas de la compañía.
             .estilo1(data-aos="fade-right")
               .cajon.color-secundario.p-4.mb-4
-                p.mb-0 #[b Design Thinking es una metodología que utiliza herramientas creativas para identificar las necesidades y requerimientos de los usuarios o de los clientes y, desde allí, desarrollar ideas innovadoras para lograr satisfacerlas.]
+                p.mb-0 #[b #[i Design Thinking] es una metodología que utiliza herramientas creativas para identificar las necesidades y requerimientos de los usuarios o de los clientes y, desde allí, desarrollar ideas innovadoras para lograr satisfacerlas.]
+            p.mb-4 A continuación, se define de forma especifica las fases que contemplan esta metodología, las cuales se describirán más adelante, así:
             .row(data-aos="fade-up")
               .col-auto.p-2.bg-color20.rounded
                 p.mb-0.text-white #[b Fases del Design Thinking]

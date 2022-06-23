@@ -517,7 +517,7 @@
                 img(src='@/assets/curso/tema4/img1.svg' alt='AvatarTop')
               .tarjeta.tarjeta--naranja.shadow-sm
                 .p-5
-                  p.mb-0  Se realizan los cálculos de los datos en porcentajes lo que permitirá entenderlos mejor, para ello se divide cada uno de los elementos de la frecuencia absoluta y acumulada sobre el total de los registros, a este paso se le denomina frecuencia relativa.
+                  p.mb-0  Se realizan los cálculos de los datos en porcentajes lo que permitirá entenderlos mejor, para ello se divide cada uno de los elementos de la frecuencia absoluta y acumulada sobre el total de los registros, a este paso se le denomina #[b frecuencia relativa].
         p.mb-5 El procedimiento es dividir cada uno de los registros entre 200 que corresponde al total de los registros así:
         .row
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
