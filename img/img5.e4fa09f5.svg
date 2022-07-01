@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179" height="114" viewBox="0 0 179 114">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#13c7e7"/>
+      <stop offset="1" stop-color="#207be9"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_157229" data-name="Grupo 157229" transform="translate(5778 10171)">
+    <path id="Trazado_197538" data-name="Trazado 197538" d="M-5653-9613l35.547,32.2,37.465-61.1,34.746,24.688,47.9-54.648" transform="translate(-113 -488)" fill="none" stroke="#12263f" stroke-width="8"/>
+    <circle id="Elipse_6110" data-name="Elipse 6110" cx="12" cy="12" r="12" transform="translate(-5778 -10113)" fill="url(#linear-gradient)"/>
+    <circle id="Elipse_6111" data-name="Elipse 6111" cx="12" cy="12" r="12" transform="translate(-5740 -10081)" fill="url(#linear-gradient)"/>
+    <circle id="Elipse_6112" data-name="Elipse 6112" cx="12" cy="12" r="12" transform="translate(-5705 -10140)" fill="url(#linear-gradient)"/>
+    <circle id="Elipse_6113" data-name="Elipse 6113" cx="12" cy="12" r="12" transform="translate(-5670 -10116)" fill="url(#linear-gradient)"/>
+    <circle id="Elipse_6114" data-name="Elipse 6114" cx="12" cy="12" r="12" transform="translate(-5623 -10171)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
