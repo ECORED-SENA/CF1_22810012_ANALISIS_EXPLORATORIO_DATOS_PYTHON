@@ -21,7 +21,7 @@
                 p.mb-0 La preparación de los datos es un paso muy importante para el análisis exploratorio, después de conocer muy bien los objetivos del negocio e identificar las metas de la organización. Es muy importante establecer el camino que se debe seguir para esta preparación.
             .estilo1(data-aos="fade-left")
               .cajon.color-secundario.p-4.mb-4
-                p.mb-0 #[b Una de las estrategias que apoya el proceso de preparación de datos son los #[i Data Sets], esta estrategia es un colección o representación de datos que, generalmente, están dados por filas y columnas. Estos datos se generan directamente desde los sistemas de información del negocio o se pueden encontrar como datos abiertos que se descargan desde internet, o incluso pueden comprarse.]
+                p.mb-0 #[b Una de las estrategias que apoya el proceso de preparación de datos son los #[i Data Sets], esta estrategia es una colección o representación de datos que, generalmente, están dados por filas y columnas. Estos datos se generan directamente desde los sistemas de información del negocio o se pueden encontrar como datos abiertos que se descargan desde internet, o incluso pueden comprarse.]
         .tarjeta.color-primario.p-3.mb-5(data-aos="fade-up")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -116,7 +116,7 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema5/img8.svg', style="width: 100px" alt='AvatarTop').m-auto
-        p.text-center Establecer si existen inconsistencia en los registros, por ejemplo, que dentro de la variable edad que es numérica se tenga valores de tipo carácter.
+        p.text-center Establecer si existen inconsistencia en los registros, por ejemplo, que dentro de la variable edad que es numérica se tenga valores de tipo caracter.
       .tarjeta.color-blanco2.shadow-sm.p-3.m-1
         .row.justify-content-center.mb-3
           .col-8

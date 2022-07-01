@@ -295,7 +295,7 @@
         .row.mb-5(data-aos="fade-up")
           .col-auto.p-4.bg-color9
             h4.mb-0 Fase 5: construir el modelo
-        p.mb-5 Al inicio del proyecto se plantearon unos objetivos o metas, con la construcción de un modelo se pretende estructurar todo lo necesario para lograr alcanzarlos, en esta fase se pueden requerir varias interacciones que permite ir afinando el modelo, es muy probable que sea necesario regresar hacia atrás y volver a la fase de preparación de los datos para realizar los ajustes necesarios.
+        p.mb-5 Al inicio del proyecto se plantearon unos objetivos o metas, con la construcción de un modelo se pretende estructurar todo lo necesario para lograr alcanzarlos, en esta fase se pueden requerir varias interacciones que permite ir afinando el modelo, es muy probable que sea necesario volver a la fase de preparación de los datos para realizar los ajustes necesarios.
         .row.justify-content-center.mb-5
           .col-lg-11
             .row.align-items-center

@@ -31,7 +31,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Metodología de la ciencia de datos',
+        titulo: 'Metodología para la ciencia de datos',
         desarrolloContenidos: true,
       },
       {
@@ -200,7 +200,7 @@ export default {
     {
       tema: 'Importancia del análisis exploratorio de datos.',
       referencia:
-        'Comunicación numérica. (s.f.). <em>¿Qué es el análisis exploratorios de datos?</em>',
+        'Comunicación numérica. (s.f.). <em>¿Qué es el análisis exploratorio de datos?</em>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=UeMpYEktLfU',
     },
