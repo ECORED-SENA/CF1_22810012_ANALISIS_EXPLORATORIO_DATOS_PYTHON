@@ -103,7 +103,7 @@
                 tr
                   td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF") 1
                   td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF") Estudiante 1
-                  td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF").text-center 1
+                  td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF").text-center 1,2
                 tr
                   td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF") 2
                   td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF") Estudiante 2
@@ -143,7 +143,7 @@
                 tr
                   td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF")
                   td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF") #[b SUMA TOTAL]
-                  td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF") #[b 29,8]
+                  td(style="padding: 0.3em; background-color: #EDF1F7; border: 2px solid #FFF") #[b 30]
           .col-lg-7
             .row.mb-4
               .col-lg-11(data-aos="fade-left")
@@ -155,10 +155,10 @@
                       p.mb-0 Como se observa en el cuadro anterior, a pesar de que el 70% presenta una valoración baja y con solo 30% de los datos con valoración alta, el comportamiento de la media tiende a subir.
             .row.justify-content-center.mb-4
               .col-auto.p-3.bg-color31(data-aos="fade-up")
-                p.mb-0 #[b.text-white Si se divide media = 30/10 = 2,9]
+                p.mb-0 #[b.text-white Si se divide media = 30/10 = 3,0]
             .row.justify-content-center
               .col-lg-11
-                p.mb-0 Y si el parámetro de análisis valida que de 2,9 en adelante es una medida aceptable, entonces muy probablemente se incurrirá en errores.
+                p.mb-0 Y si el parámetro de análisis valida que de 3,0 en adelante es una medida aceptable, entonces muy probablemente se incurrirá en errores.
     Separador
     .row.bg-color32
       .col-12.p-4.p-lg-5
